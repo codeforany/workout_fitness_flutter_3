@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:workout_fitness/view/login/step2_view.dart';
 
 import '../../common/color_extension.dart';
-import '../../common/round_button.dart';
+import '../../common_widget/round_button.dart';
 
 class Step1View extends StatefulWidget {
   const Step1View({super.key});
@@ -16,22 +17,26 @@ class _Step1ViewState extends State<Step1View> {
   Widget build(BuildContext context) {
     var media = MediaQuery.sizeOf(context);
     return Scaffold(
-      body: 
-        
-        SafeArea(
-          child: Column(
-            children: [
-              Text(
+
+      appBar: AppBar(
+        backgroundColor: TColor.white,
+        centerTitle: true, title:   Text(
             "Step 1 of 3",
             style: TextStyle(
                 color: TColor.primary,
                 fontSize: 20,
                 fontWeight: FontWeight.w700),
-          ),
+          ), ),
+      body: 
+        
+        SafeArea(
+          child: Column(
+            children: [
+             
 
               const Spacer(),
               Image.asset(
-                "assets/img/step_1.png",
+                "assets/img/step_1.png",  
                 width: media.width * 0.6,
                 height: media.width * 0.6,
                 fit: BoxFit.contain,
@@ -65,7 +70,9 @@ class _Step1ViewState extends State<Step1View> {
                     const EdgeInsets.symmetric(vertical: 30, horizontal: 25),
                 child: RoundButton(
                   title: "Get Started",
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const Step2View() ));
+                  },
                 ),
               ),
 

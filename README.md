@@ -7,6 +7,7 @@
 - [Youtube Channel Subscribe: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg?sub_confirmation=1)
 
 - [Youtube Video Part-1: App Induction & On Boarding Screen](https://youtu.be/cphQqhNBxeo)
+- [Youtube Video Part-2: Select Fitness UI Screen & Personal Details UI Screen](https://youtu.be/pF-HWEFjDW4)
 
 UI UX App Design by: [Capi Creative Design](https://www.uistore.design/items/cafit-workout-ui-kit/)
 

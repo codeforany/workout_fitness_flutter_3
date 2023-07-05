@@ -10,5 +10,6 @@ class TColor {
   
   static Color get white => Colors.white;
   static Color get gray => const Color(0xff8C8C8C);
+  static Color get divider => const Color(0xffE1E1E1);
 
 }
