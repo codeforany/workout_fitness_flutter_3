@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   intl: ^0.18.1
   flutter_timezone: ^1.0.6
+  carousel_slider: ^4.2.1
 
 
 dev_dependencies:
