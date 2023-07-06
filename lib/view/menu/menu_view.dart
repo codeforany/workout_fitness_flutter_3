@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:workout_fitness/view/home/home_view.dart';
 
 import '../../common/color_extension.dart';
@@ -25,6 +26,14 @@ class _MenuViewState extends State<MenuView> {
     {"name": "Settings", "image": "assets/img/menu_settings.png", "tag": "10"},
     {"name": "Support", "image": "assets/img/menu_support.png", "tag": "11"},
   ];
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
+  }
+
   @override
   Widget build(BuildContext context) {
     var media = MediaQuery.sizeOf(context);

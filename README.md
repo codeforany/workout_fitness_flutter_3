@@ -9,6 +9,7 @@
 - [Youtube Video Part-1: App Induction & On Boarding Screen](https://youtu.be/cphQqhNBxeo)
 - [Youtube Video Part-2: Select Fitness UI Screen & Personal Details UI Screen](https://youtu.be/pF-HWEFjDW4)
 - [Youtube Video Part-3: Fitness Menu UI Screen & Workout Home UI Screen](https://youtu.be/slTIVlE9-iM)
+- [Youtube Video Part-4: Workout List UI Screen & Workout Details UI Screen](https://youtu.be/SD8qdFJtIOI)
 
 UI UX App Design by: [Capi Creative Design](https://www.uistore.design/items/cafit-workout-ui-kit/)
 

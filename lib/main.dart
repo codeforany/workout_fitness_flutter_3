@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:workout_fitness/view/login/on_boarding_view.dart';
+// import 'package:workout_fitness/view/login/on_boarding_view.dart';
+import 'package:workout_fitness/view/menu/menu_view.dart';
+
+import 'common/color_extension.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,6 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
 
   // This widget is the root of your application.
   @override
@@ -16,10 +20,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Quicksand",
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: TColor.primary),
         useMaterial3: false,
       ),
-      home: const OnBoardingView(),
+      home: const MenuView(),
     );
   }
 }

@@ -4,6 +4,8 @@ import 'package:workout_fitness/common_widget/round_button.dart';
 
 import '../../common/color_extension.dart';
 import '../../common_widget/exercises_row.dart';
+import '../workout/workout_view.dart';
+import '../workout/workout_view_2.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -123,8 +125,6 @@ class _HomeViewState extends State<HomeView> {
                 ),
               ),
             ),
-
-
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8),
               child: SizedBox(
@@ -177,40 +177,49 @@ class _HomeViewState extends State<HomeView> {
                                 fontSize: 16,
                                 fontWeight: FontWeight.w700),
                           ),
-
                           const Spacer(),
-
-                          ExercisesRow(number: "1", title: "Exercises 1", time: "7 min",
-                           isActive: true,
-                           onPressed: (){
-
-                          }),
-
-                           ExercisesRow(
+                          ExercisesRow(
+                              number: "1",
+                              title: "Exercises 1",
+                              time: "7 min",
+                              isActive: true,
+                              onPressed: () {}),
+                          ExercisesRow(
                               number: "2",
                               title: "Exercises 2",
                               time: "15 min",
-                              
                               onPressed: () {}),
-
-                            ExercisesRow(
+                          ExercisesRow(
                               number: "3",
                               title: "Finished",
                               time: "5 min",
                               isLast: true,
                               onPressed: () {}),
-                          
                           const Spacer(),
-
                           SizedBox(
                             width: 150,
                             height: 40,
-                            child: RoundButton(title: "Start", onPressed: (){
-                              
-                            }),
+                            child: RoundButton(
+                                title: "Start",
+                                onPressed: () {
+                                  if (index % 2 == 0) {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                const WorkoutView()));
+                                  } else {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                const WorkoutView2()));
+                                  }
+                                }),
                           ),
-
-                          const SizedBox(height: 20,)
+                          const SizedBox(
+                            height: 20,
+                          )
                         ],
                       ),
                     );
