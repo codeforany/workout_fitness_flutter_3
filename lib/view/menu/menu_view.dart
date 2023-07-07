@@ -54,7 +54,7 @@ class _MenuViewState extends State<MenuView> {
     {"name": "Home", "image": "assets/img/menu_home.png", "tag": "1"},
     {"name": "Weight", "image": "assets/img/menu_weight.png", "tag": "2"},
     {
-      "name": "Training plan",
+      "name": "Traning plan",
       "image": "assets/img/menu_traning_plan.png",
       "tag": "3"
     },
@@ -115,7 +115,7 @@ class _MenuViewState extends State<MenuView> {
                               ),
                               Expanded(
                                 child: Text(
-                                  "Training Plan",
+                                  "Traning Plan",
                                   style: TextStyle(
                                       fontSize: 20,
                                       color: TColor.secondaryText,
