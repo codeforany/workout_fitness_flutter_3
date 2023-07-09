@@ -8,6 +8,8 @@ import 'package:workout_fitness/view/menu/yoga_view.dart';
 import '../../common/color_extension.dart';
 import '../../common_widget/menu_cell.dart';
 import '../../common_widget/plan_row.dart';
+import '../schedule/schedule_view.dart';
+import '../weight/weight_view.dart';
 
 class MenuView extends StatefulWidget {
   const MenuView({super.key});
@@ -310,8 +312,20 @@ class _MenuViewState extends State<MenuView> {
                         MaterialPageRoute(
                             builder: (context) => const HomeView()));
                     break;
+                  case "2":
+                     Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const WeightView()));
+                    break;
                   case "3":
                     Scaffold.of(context).openDrawer();
+                    break;
+                  case "6":
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const ScheduleView()));
                     break;
                   default:
                 }
