@@ -40,6 +40,7 @@ dependencies:
   carousel_slider: ^4.2.1
   flutter_rating_bar: ^4.0.1
   flutter_calendar_carousel: ^2.4.2
+  simple_circular_progress_bar: ^1.0.2
 
 
 dev_dependencies:

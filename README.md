@@ -13,6 +13,7 @@
 - [Youtube Video Part-5: Traning Plan UI Screen & Traning Plan Details UI Screen](https://youtu.be/9MFqToYdDxI)
 - [Youtube Video Part-6: My Weight UI Screen & Workout Schedule UI Screen](https://youtu.be/uXK8Sep9kOo)
 - [Youtube Video Part-7: Exercise UI Screen & Meal Plan UI Screen](https://youtu.be/P7fsN_WQPXg)
+- [Youtube Video Part-8: Running UI, Running Time UI,  Running Heart UI,  Running Density UI, Running Length UI, Running Speed  UI](https://youtu.be/_Bnui09reg8)
 
 
 

@@ -12,6 +12,7 @@ import '../../common_widget/plan_row.dart';
 import '../exercise/exercise_view.dart';
 import '../exercise/exercise_view_2.dart';
 import '../meal_plan/meal_plan_view_2.dart';
+import '../running/running_view.dart';
 import '../schedule/schedule_view.dart';
 import '../weight/weight_view.dart';
 
@@ -336,6 +337,12 @@ class _MenuViewState extends State<MenuView> {
                         context,
                         MaterialPageRoute(
                             builder: (context) => const ScheduleView()));
+                    break;
+                    case "7":
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const RunningView()));
                     break;
                    case "8":
                     Navigator.push(
