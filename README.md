@@ -12,6 +12,9 @@
 - [Youtube Video Part-4: Workout List UI Screen & Workout Details UI Screen](https://youtu.be/SD8qdFJtIOI)
 - [Youtube Video Part-5: Traning Plan UI Screen & Traning Plan Details UI Screen](https://youtu.be/9MFqToYdDxI)
 - [Youtube Video Part-6: My Weight UI Screen & Workout Schedule UI Screen](https://youtu.be/uXK8Sep9kOo)
+- [Youtube Video Part-7: Exercise UI Screen & Meal Plan UI Screen](https://youtu.be/P7fsN_WQPXg)
+
+
 
 UI UX App Design by: [Capi Creative Design](https://www.uistore.design/items/cafit-workout-ui-kit/)
 
