@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:workout_fitness/view/home/home_view.dart';
 import 'package:workout_fitness/view/meal_plan/meal_plan_view.dart';
 import 'package:workout_fitness/view/menu/yoga_view.dart';
+import 'package:workout_fitness/view/settings/setting_view.dart';
 
 import '../../common/color_extension.dart';
 import '../../common_widget/menu_cell.dart';
@@ -14,6 +15,7 @@ import '../exercise/exercise_view_2.dart';
 import '../meal_plan/meal_plan_view_2.dart';
 import '../running/running_view.dart';
 import '../schedule/schedule_view.dart';
+import '../tips/tips_view.dart';
 import '../weight/weight_view.dart';
 
 class MenuView extends StatefulWidget {
@@ -349,6 +351,18 @@ class _MenuViewState extends State<MenuView> {
                         context,
                         MaterialPageRoute(
                             builder: (context) => const ExerciseView2()));
+                    break;
+                   case "9":
+                  Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const TipsView()));
+                    break;
+                    case "10":
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const SettingsView()));
                     break;
                   default:
                 }

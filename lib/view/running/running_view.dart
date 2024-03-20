@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
+import 'package:workout_fitness/view/running/running_setting_view.dart';
 
 import '../../common/color_extension.dart';
 import '../../common_widget/running_density_view.dart';
@@ -152,7 +152,13 @@ class _RunningViewState extends State<RunningView> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                       Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  const RunningSettingsView()));
+                    },
                     child: Column(
                       children: [
                         Image.asset(
@@ -169,7 +175,9 @@ class _RunningViewState extends State<RunningView> {
                     ),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                     
+                    },
                     child: Container(
                       width: media.width * 0.5,
                       height: 40,
